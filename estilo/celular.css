@@ -13,7 +13,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
-    width: 100vw;
+    width: 95vw;
 }
 
 /*------------------------------------------------------Piratas Burguer----------------------------*/
@@ -96,8 +96,7 @@ main > div#pano > div#topo > div#imagem {
 main > div#pano > div#topo > div#imagem > img {
     height: 150px;
     width: 225px; 
-    margin-bottom: -30px;
-    padding: 20px 100px 40px 100px;
+    padding: 20px 100px 20px 100px;
 }
 
 /*main > div#pano > div#pote {
@@ -147,12 +146,12 @@ main > div#pano > div#topo > div#lanche-casa > h2#lpir {
 
 main > div#pano > div#topo > div#lanche-casa > h2#lvalor {
     display: inline-block;
-    margin-left: 110px;
+    padding-left: 110px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 35px;
     color: rgb(64, 1, 1);
     text-shadow: 1px 1px 1px black;
-    padding-right: -80px;
+
 }
 
 
@@ -186,19 +185,19 @@ main > div#pano > div#pote > div#esquerda > div.lanches {
     font-size: 20px;
     color: rgb(242, 202, 82);
     text-shadow: 1px 1px 1px black;
-    margin-top: 25px;
+    padding-top: 25px;
     padding-bottom: 20px;
 
 }
 
 main > div#pano > div#pote > div#esquerda > div.lanches > h3.nome-lanche {
     display: inline-block;
-    margin-left: 10px;
+    padding-left: 20px;
 }
 
 main > div#pano > div#pote > div#esquerda > div.lanches > h3.valor-lanche {
     display: inline-block;
-    margin-left: 25px;
+    padding-left: 25px;
 
 }
 
@@ -208,7 +207,7 @@ main > div#pano > div#pote > div#esquerda > div.lanches > h3.valor-lanche {
 main > div#pano > div#pote >  div#direita > div#imgs {
 
     background-color: rgb(2, 38, 1, 0.95);
-    padding: 0px 40px 0px 60px;
+    padding: 0px 20px 0px 30px;
     margin: 0px 15px 0px 0px;
     border-radius: 20%;
     box-shadow: 1px 1px 1px 1px black;
@@ -226,7 +225,7 @@ main > div#pano > div#pote >  div#direita > div#imgs > img {
 
 main > div#pano > div#pote >  div#direita > div#imgs1 {
     background-color: rgb(2, 38, 1, 0.95);
-    padding: 0px 40px 0px 60px;
+    padding: 0px 20px 0px 30px;
     margin: 20px 15px 0px 0px;
     border-radius: 20%;
     box-shadow: 1px 1px 1px 1px black;
