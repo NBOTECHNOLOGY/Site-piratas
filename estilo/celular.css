@@ -43,7 +43,7 @@ main > div#pano >div#titulo {
 
 main > div#pano > div#titulo > h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding:  800px 0px 50px 0px;
+    padding:  300px 0px 50px 0px;
     font-size: 50px;
     color: rgb(242, 202, 82);
     text-shadow: 1px 1px 1px black;
@@ -182,11 +182,11 @@ main > div#pano > div#separar > div.linha {
 
 main > div#pano > div#pote > div#esquerda > div.lanches {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 10px;
+    font-size: 20px;
     color: rgb(242, 202, 82);
     text-shadow: 1px 1px 1px black;
     margin-top: 25px;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
 
 }
 
@@ -207,7 +207,7 @@ main > div#pano > div#pote > div#esquerda > div.lanches > h3.valor-lanche {
 main > div#pano > div#pote >  div#direita > div#imgs {
 
     background-color: rgb(2, 38, 1, 0.95);
-    padding: 0px 30px 0px 50px;
+    padding: 0px 40px 0px 60px;
     margin: 0px 15px 0px 0px;
     border-radius: 20%;
     box-shadow: 1px 1px 1px 1px black;
@@ -216,8 +216,8 @@ main > div#pano > div#pote >  div#direita > div#imgs {
 }
 
 main > div#pano > div#pote >  div#direita > div#imgs > img {
-    height: 75px;
-    width: 112px;
+    height: 150px;
+    width: 225px;
     margin: 0px -50px 0px -70px;
     
 
@@ -225,7 +225,7 @@ main > div#pano > div#pote >  div#direita > div#imgs > img {
 
 main > div#pano > div#pote >  div#direita > div#imgs1 {
     background-color: rgb(2, 38, 1, 0.95);
-    padding: 0px 30px 0px 50px;
+    padding: 0px 40px 0px 60px;
     margin: 20px 15px 0px 0px;
     border-radius: 20%;
     box-shadow: 1px 1px 1px 1px black;
@@ -233,8 +233,8 @@ main > div#pano > div#pote >  div#direita > div#imgs1 {
 }
 
 main > div#pano > div#pote >  div#direita > div#imgs1 > img {
-    height: 75px;
-    width: 112px;
+    height: 150px;
+    width: 225px;
     margin: 0px -50px 0px -70px;
     
 }
