@@ -99,10 +99,10 @@ main > div#pano > div#topo > div#imagem > img {
     margin-bottom: -30px;
 }
 
-main > div#pano > div#pote {
+/*main > div#pano > div#pote {
    /* background-color: rgb(58, 11, 168);*/
- 
-}
+ /*
+}*/
 
 
 main > div#pano > div#pote > div#esquerda {
