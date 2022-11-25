@@ -102,7 +102,7 @@ main > div#pano > div#topo > div#imagem {
 main > div#pano > div#topo > div#imagem > img {
     height: 95%;
     width: 95%; 
-    padding: 0px 100px 0px 70px;
+    padding: 0px 100px 0px 100px;
 }
 /*
 main > div#pano > div#pote {
@@ -140,7 +140,7 @@ main > div#pano > div#topo > div#lanche-casa {
     /*background-color: rgb(11, 168, 71);*/
     display: block;
     margin-right: -90px;
-    padding: 60px 0px 90px 0px;
+    padding: 60px 0px 60px 0px;
 
 }
 
@@ -192,7 +192,7 @@ main > div#pano > div#separar > div.linha {
 
 main > div#pano > div#pote > div#esquerda > div.lanches {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 10px;
+    font-size: 15px;
     color: rgb(242, 202, 82);
     text-shadow: 1px 1px 1px black;
     padding-top: 25px;
