@@ -289,14 +289,14 @@ main > div#pano > div#pote >  div#baixo > div#triangulo > h3.valor-lanche {
 
 
 main > div#pano > div#pote >  div#baixo > div#combo-saint {
-    height: 100%;
-    width: 100%;
+    padding: 20px 0px 20px 50px;
     
 }
 
 main > div#pano > div#pote >  div#baixo > div#combo-saint > img {
-
-    padding: 0px 40px;
+    border-radius: 20%;
+    background-color: aliceblue;
+    padding: 5px;
     height: 80%;
     width: 80%;
 
