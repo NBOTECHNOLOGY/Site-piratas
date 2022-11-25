@@ -36,7 +36,7 @@ main > div#pano {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    padding: 800px 0px 0px 0px ;
+    padding: 500px 0px 0px 0px ;
     width: 90vw;
 
 
@@ -49,7 +49,7 @@ main > div#pano >div#titulo {
 
 main > div#pano > div#titulo > h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding:  150px 0px 20px 0px;
+    padding:  0px 0px 20px 0px;
     font-size: 50px;
     color: rgb(242, 202, 82);
     text-shadow: 1px 1px 1px black;
