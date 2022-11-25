@@ -18,7 +18,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
-    width: 80vw;
+    width: 95vw;
 }
 
 /*------------------------------------------------------Piratas Burguer----------------------------*/
@@ -37,7 +37,7 @@ main > div#pano {
     left: 50%;
     transform: translate(-50%,-50%);
     padding: 900px 0px 100px 0px ;
-    width: 75vw;
+    width: 90vw;
 
 }
 
