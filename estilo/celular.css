@@ -17,14 +17,16 @@
 
 /*------------------------------------------------------Piratas Burguer----------------------------*/
 
-body {
+main > div#navio {
     background-image: url("../imagens/pexels-drais-pereyra-7113306.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
-    width: 95vw;
+    width: 100%;
+    padding-top: 830px;
+    padding-bottom: 10px;
 }
 
 
@@ -33,24 +35,24 @@ body {
 
 
 
-main > div#pano {
+main > div#navio > div#pano {
     background-color: rgba(242, 242, 242, 0.493);
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    padding: 950px 0px 0px 0px ;
+    padding: 950px 0px 26px 0px ;
     width: 90vw;
 
 
 }
 
-main > div#pano >div#titulo {
+main > div#navio > div#pano >div#titulo {
     text-align: center;
     
 }
 
-main > div#pano > div#titulo > h1 {
+main > div#navio > div#pano > div#titulo > h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding:  0px 0px 5px 0px;
     font-size: 40px;
@@ -58,7 +60,7 @@ main > div#pano > div#titulo > h1 {
     text-shadow: 1px 1px 1px black;
 }
 
-main > div#pano > div#titulo > h2 {
+main > div#navio > div#pano > div#titulo > h2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding:  20px 0px 100px 0px;
     font-size: 30px;
@@ -75,7 +77,7 @@ main > div#pano > div#titulo > h2 {
 
 
 
-main > div#pano > div#titulo > img {
+main > div#navio > div#pano > div#titulo > img {
     padding: 50px;
     height: 70%;
     width: 70%;
@@ -83,33 +85,33 @@ main > div#pano > div#titulo > img {
 
 /*----------------------------Começo do Cardapio---------------------------------------------*/ 
 
-main > div#pano > div#topo {
+main > div#navio > div#pano > div#topo {
     margin-top: -70px;
 }
 
-main > div#pano > div#topo > div#fundo-hambuerguer {
+main > div#navio > div#pano > div#topo > div#fundo-hambuerguer {
     background-color: rgb(2, 38, 1, 0.15);
     box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.288);
 }
 
-main > div#pano > div#topo > div#fundo-hambuerguer > div#imagem {
+main > div#navio > div#pano > div#topo > div#fundo-hambuerguer > div#imagem {
     height: 50%;
     width: 50%; 
 }
 
-main > div#pano > div#topo > div#fundo-hambuerguer > div#imagem > img {
+main > div#navio > div#pano > div#topo > div#fundo-hambuerguer > div#imagem > img {
     height: 120%;
     width: 120%; 
     padding: 0px 80px 0px 80px;
 }
 /*
-main > div#pano > div#pote {
+main > div#navio > div#pano > div#pote {
     background-color: rgb(58, 11, 168);
 
 }
 */
 
-main > div#pano > div#pote > div#esquerda {
+main > div#navio > div#pano > div#pote > div#esquerda {
     display: inline-block;
    /* background-color: rgb(168, 82, 11);*/
 
@@ -117,7 +119,7 @@ main > div#pano > div#pote > div#esquerda {
 
 }
 
-main > div#pano > div#pote >  div#direita {
+main > div#navio > div#pano > div#pote >  div#direita {
     display: inline-block;
     height: 30%;
     width: 30%;
@@ -133,12 +135,12 @@ main > div#pano > div#pote >  div#direita {
 
 /*---------------------- X Pirata-------------------*/
 /*
-main > div#pano > div#topo {
+main > div#navio > div#pano > div#topo {
     background-color: aqua;
 }*/
 
 
-main > div#pano > div#topo > div#lanche-casa {
+main > div#navio > div#pano > div#topo > div#lanche-casa {
    /* background-color: rgb(11, 168, 71);*/
     display: inline-block;
     padding: 50px 0px 50px 30px;
@@ -146,7 +148,7 @@ main > div#pano > div#topo > div#lanche-casa {
 
 }
 
-main > div#pano > div#topo > div#lanche-casa > h2#lpir {
+main > div#navio > div#pano > div#topo > div#lanche-casa > h2#lpir {
     display: inline-block;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 35px;
@@ -154,7 +156,7 @@ main > div#pano > div#topo > div#lanche-casa > h2#lpir {
     text-shadow: 1px 1px 1px black;
 }
 
-main > div#pano > div#topo > div#lanche-casa > h2#lvalor {
+main > div#navio > div#pano > div#topo > div#lanche-casa > h2#lvalor {
     display: inline-block;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 35px;
@@ -167,7 +169,7 @@ main > div#pano > div#topo > div#lanche-casa > h2#lvalor {
 
 /*---------------------- LANCHES EM GERAL-------------------*/
 /*
-main > div#pano > div#separar {
+main > div#navio > div#pano > div#separar {
     display: block;
     /*background-color: rgb(63, 46, 0);*/
     /*color: rgb(64, 1, 1);
@@ -176,11 +178,11 @@ main > div#pano > div#separar {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-main > div#pano > div#separar > h1 {
+main > div#navio > div#pano > div#separar > h1 {
     display: block;
 }
 
-main > div#pano > div#separar > div.linha {
+main > div#navio > div#pano > div#separar > div.linha {
     padding: 3px 0px;
     background-color: rgb(166, 3, 3);
     box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.192);
@@ -190,7 +192,7 @@ main > div#pano > div#separar > div.linha {
 /*---------------------- ESQUERDO-------------------*/
 
 
-main > div#pano > div#pote > div#esquerda > div.lanches {
+main > div#navio > div#pano > div#pote > div#esquerda > div.lanches {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 15px;
     color: rgb(242, 202, 82);
@@ -200,12 +202,12 @@ main > div#pano > div#pote > div#esquerda > div.lanches {
 
 }
 
-main > div#pano > div#pote > div#esquerda > div.lanches > h3.nome-lanche {
+main > div#navio > div#pano > div#pote > div#esquerda > div.lanches > h3.nome-lanche {
     display: inline-block;
     padding-left: 15px;
 }
 
-main > div#pano > div#pote > div#esquerda > div.lanches > h3.valor-lanche {
+main > div#navio > div#pano > div#pote > div#esquerda > div.lanches > h3.valor-lanche {
     display: inline-block;
     padding-left: 20px;
 
@@ -214,7 +216,7 @@ main > div#pano > div#pote > div#esquerda > div.lanches > h3.valor-lanche {
 
 /*---------------------- DIREITO-------------------*/
 
-main > div#pano > div#pote >  div#direita > div#imgs {
+main > div#navio > div#pano > div#pote >  div#direita > div#imgs {
     background-color: rgba(2, 38, 1, 0.521);
     border-radius: 20%;
     padding: 2px;
@@ -222,7 +224,7 @@ main > div#pano > div#pote >  div#direita > div#imgs {
   
 }
 
-main > div#pano > div#pote >  div#direita > div#imgs > img {
+main > div#navio > div#pano > div#pote >  div#direita > div#imgs > img {
     background-color: black;
     height: 100%;
     width: 100%;
@@ -231,7 +233,7 @@ main > div#pano > div#pote >  div#direita > div#imgs > img {
     border-radius: 20%;
 }
 
-main > div#pano > div#pote >  div#direita > div#imgs1 {
+main > div#navio > div#pano > div#pote >  div#direita > div#imgs1 {
     background-color: rgba(2, 38, 1, 0.521);
     margin: 20px 0px 0px 0px;
     padding: 2px;
@@ -240,7 +242,7 @@ main > div#pano > div#pote >  div#direita > div#imgs1 {
     
 }
 
-main > div#pano > div#pote >  div#direita > div#imgs1 > img {
+main > div#navio > div#pano > div#pote >  div#direita > div#imgs1 > img {
     background-color: black;
     height: 100%;
     width: 100%;
@@ -254,7 +256,7 @@ main > div#pano > div#pote >  div#direita > div#imgs1 > img {
 
 /*---------------------- BAIXO-------------------*/
 
-main > div#pano > div#pote >  div#baixo {
+main > div#navio > div#pano > div#pote >  div#baixo {
    /* background-color: aliceblue;*/
    margin-top: 50px;
         background-color: rgba(0, 255, 255, 0.315);
@@ -264,7 +266,7 @@ main > div#pano > div#pote >  div#baixo {
 
 }
 
-main > div#pano > div#pote >  div#baixo > div#triangulo {
+main > div#navio > div#pano > div#pote >  div#baixo > div#triangulo {
    text-align: center;
    background-color: rgba(55, 0, 255, 0.315);
    border-radius: 50% ;
@@ -273,7 +275,7 @@ main > div#pano > div#pote >  div#baixo > div#triangulo {
    
 }
 
-main > div#pano > div#pote >  div#baixo > div#triangulo > h3.nome-lanche {
+main > div#navio > div#pano > div#pote >  div#baixo > div#triangulo > h3.nome-lanche {
     display: block;
     padding: 15px 0px 0px 0px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -283,7 +285,7 @@ main > div#pano > div#pote >  div#baixo > div#triangulo > h3.nome-lanche {
 
 }/**/
 
-main > div#pano > div#pote >  div#baixo > div#triangulo > h3.valor-lanche {
+main > div#navio > div#pano > div#pote >  div#baixo > div#triangulo > h3.valor-lanche {
     display: block;
     padding: 0px 0px 0px 0px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -293,12 +295,12 @@ main > div#pano > div#pote >  div#baixo > div#triangulo > h3.valor-lanche {
 }
 
 
-main > div#pano > div#pote >  div#baixo > div#combo-saint {
+main > div#navio > div#pano > div#pote >  div#baixo > div#combo-saint {
     padding: 20px 0px 20px 50px;
     
 }
 
-main > div#pano > div#pote >  div#baixo > div#combo-saint > img {
+main > div#navio > div#pano > div#pote >  div#baixo > div#combo-saint > img {
     border-radius: 20%;
     background-color: aliceblue;
     padding: 5px;
@@ -307,6 +309,16 @@ main > div#pano > div#pote >  div#baixo > div#combo-saint > img {
 
 }
 
+/*
+div#mesa-bebidas {
 
+    color: rgba(240, 255, 255, 0.301);
+    background-size: cover;
+    background-position: center,center;
+    height: 100vh;
+
+
+}
+*/
 
 }
