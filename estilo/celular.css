@@ -39,7 +39,7 @@ main > div#pano {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    padding: 600px 0px 0px 0px ;
+    padding: 800px 0px 0px 0px ;
     width: 90vw;
 
 
@@ -84,25 +84,20 @@ main > div#pano > div#titulo > img {
 /*--------------------------------------------------------------Começo do Cardapio---------------------------------------------*/
 
 main > div#pano > div#topo {
-    padding: 0px 100px 0px 100px;
-    /*background-color: blue;*/
-
-}
-
-main > div#pano > div#topo > div#imagem {
-  background-color: rgb(2, 38, 1, 0.15);
-    display: block;
-    margin-left: -100px;
     margin-top: -70px;
-    margin-right: -100px;
-    margin-bottom: 10px;
-    padding-right: 200px;
-    box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.288);
- 
-    
 }
 
-main > div#pano > div#topo > div#imagem > img {
+main > div#pano > div#topo > div#fundo-hambuerguer {
+    background-color: rgb(2, 38, 1, 0.15);
+    box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.288);
+}
+
+main > div#pano > div#topo > div#fundo-hambuerguer > div#imagem {
+    height: 50%;
+    width: 50%; 
+}
+
+main > div#pano > div#topo > div#fundo-hambuerguer > div#imagem > img {
     height: 120%;
     width: 120%; 
     padding: 0px 80px 0px 80px;
@@ -138,12 +133,14 @@ main > div#pano > div#pote >  div#direita {
 
 /*---------------------- X Pirata-------------------*/
 
-
+main > div#pano > div#topo {
+    /*background-color: aqua;*/
+}
 main > div#pano > div#topo > div#lanche-casa {
-    /*background-color: rgb(11, 168, 71);*/
-    display: block;
-    margin-right: -90px;
-    padding: 50px 0px 50px 0px;
+   /* background-color: rgb(11, 168, 71);*/
+    display: inline-block;
+    padding: 50px 50px 50px 50px;
+
 
 }
 
@@ -152,19 +149,17 @@ main > div#pano > div#topo > div#lanche-casa > h2#lpir {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 35px;
     color: rgb(64, 1, 1);
-    padding-left: 10px;
-    margin-left: -70px;
     text-shadow: 1px 1px 1px black;
 }
 
 main > div#pano > div#topo > div#lanche-casa > h2#lvalor {
     display: inline-block;
-    margin-left: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 35px;
+    padding-left: 10px;
     color: rgb(64, 1, 1);
     text-shadow: 1px 1px 1px black;
-    padding-right: 0px;
+
 }
 
 
