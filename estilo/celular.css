@@ -13,7 +13,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
-    width: 90vw;
+    width: 95vw;
 }
 
 /*------------------------------------------------------Piratas Burguer----------------------------*/
@@ -32,7 +32,7 @@ main > div#pano {
     left: 50%;
     transform: translate(-50%,-50%);
     padding: 900px 0px 100px 0px ;
-    width: 85vw;
+    width: 90vw;
 
 }
 
@@ -43,8 +43,8 @@ main > div#pano >div#titulo {
 
 main > div#pano > div#titulo > h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding:  800px 0px 50px 0px;
-    font-size: 40px;
+    padding:  300px 0px 50px 0px;
+    font-size: 50px;
     color: rgb(242, 202, 82);
     text-shadow: 1px 1px 1px black;
 }
@@ -52,7 +52,7 @@ main > div#pano > div#titulo > h1 {
 main > div#pano > div#titulo > h2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding:  20px 0px 100px 0px;
-    font-size: 30px;
+    font-size: 40px;
     text-decoration: underline;
 }
 
@@ -67,7 +67,7 @@ main > div#pano > div#titulo > h2 {
 
 
 main > div#pano > div#titulo > img {
-    padding: 50px 0px 50px 0px;
+    padding: 50px;
     height: 80%;
     width: 80%;
 }
@@ -94,9 +94,9 @@ main > div#pano > div#topo > div#imagem {
 }
 
 main > div#pano > div#topo > div#imagem > img {
-    height: 150px;
-    width: 225px; 
-    padding: 20px 100px 20px 100px;
+    height: 300px;
+    width: 450px; 
+    margin-bottom: -30px;
 }
 
 /*main > div#pano > div#pote {
@@ -130,7 +130,7 @@ main > div#pano > div#topo > div#lanche-casa {
     /*background-color: rgb(11, 168, 71);*/
     display: block;
     text-align: left;
-    margin-right: -100px;
+    margin-right: -90px;
     padding: 60px 0px 90px 0px;
 
 }
@@ -140,18 +140,18 @@ main > div#pano > div#topo > div#lanche-casa > h2#lpir {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 35px;
     color: rgb(64, 1, 1);
-    margin-left: -70px;
+    margin-left: -85px;
     text-shadow: 1px 1px 1px black;
 }
 
 main > div#pano > div#topo > div#lanche-casa > h2#lvalor {
     display: inline-block;
-    padding-left: 110px;
+    margin-left: 145px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 35px;
     color: rgb(64, 1, 1);
     text-shadow: 1px 1px 1px black;
-
+    padding-right: -80px;
 }
 
 
@@ -185,19 +185,19 @@ main > div#pano > div#pote > div#esquerda > div.lanches {
     font-size: 20px;
     color: rgb(242, 202, 82);
     text-shadow: 1px 1px 1px black;
-    padding-top: 25px;
+    margin-top: 25px;
     padding-bottom: 20px;
 
 }
 
 main > div#pano > div#pote > div#esquerda > div.lanches > h3.nome-lanche {
     display: inline-block;
-    padding-left: 20px;
+    margin-left: 10px;
 }
 
 main > div#pano > div#pote > div#esquerda > div.lanches > h3.valor-lanche {
     display: inline-block;
-    padding-left: 25px;
+    margin-left: 25px;
 
 }
 
@@ -207,7 +207,7 @@ main > div#pano > div#pote > div#esquerda > div.lanches > h3.valor-lanche {
 main > div#pano > div#pote >  div#direita > div#imgs {
 
     background-color: rgb(2, 38, 1, 0.95);
-    padding: 0px 20px 0px 30px;
+    padding: 0px 40px 0px 60px;
     margin: 0px 15px 0px 0px;
     border-radius: 20%;
     box-shadow: 1px 1px 1px 1px black;
@@ -225,7 +225,7 @@ main > div#pano > div#pote >  div#direita > div#imgs > img {
 
 main > div#pano > div#pote >  div#direita > div#imgs1 {
     background-color: rgb(2, 38, 1, 0.95);
-    padding: 0px 20px 0px 30px;
+    padding: 0px 40px 0px 60px;
     margin: 20px 15px 0px 0px;
     border-radius: 20%;
     box-shadow: 1px 1px 1px 1px black;
