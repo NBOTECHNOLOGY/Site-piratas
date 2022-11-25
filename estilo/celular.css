@@ -1,13 +1,16 @@
 @charset "UTF-8";
 
 
+
+
+
 * {
     margin: 0px;
     padding: 0px;
 
 }
 
-
+@media screen and (min-width: 320px) and (max-width: 720px){
 body {
     background-image: url("../imagens/pexels-drais-pereyra-7113306.jpg");
     background-repeat: no-repeat;
@@ -239,4 +242,6 @@ main > div#pano > div#pote >  div#direita > div#imgs1 > img {
     width: 225px;
     margin: 0px -50px 0px -70px;
     
+}
+
 }
