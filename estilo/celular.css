@@ -279,7 +279,7 @@ main > div#pano > div#pote >  div#baixo > div#triangulo > h3.nome-lanche {
     color: rgb(255, 255, 255);
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.438);
 
-}
+}/**/
 
 main > div#pano > div#pote >  div#baixo > div#triangulo > h3.valor-lanche {
     display: block;
