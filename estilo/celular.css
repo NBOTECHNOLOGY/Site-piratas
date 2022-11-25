@@ -249,4 +249,62 @@ main > div#pano > div#pote >  div#direita > div#imgs1 > img {
     
 }
 
+
+/*---------------------- BAIXO-------------------*/
+
+main > div#pano > div#pote >  div#baixo {
+   /* background-color: aliceblue;*/
+   margin-top: 50px;
+        background-color: rgba(0, 255, 255, 0.315);
+    border-radius: 30%;
+    border-color: black;
+
+
+}
+
+main > div#pano > div#pote >  div#baixo > div#triangulo {
+   text-align: center;
+   background-color: rgba(55, 0, 255, 0.315);
+   border-radius: 50% ;
+   border-color: black;
+   margin: 0px 40px;
+   
+}
+
+main > div#pano > div#pote >  div#baixo > div#triangulo > h3.nome-lanche {
+    display: block;
+    padding: 15px 0px 0px 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.438);
+
+}
+
+main > div#pano > div#pote >  div#baixo > div#triangulo > h3.valor-lanche {
+    display: block;
+    padding: 0px 0px 0px 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px black;
+}
+
+
+main > div#pano > div#pote >  div#baixo > div#combo-saint {
+    height: 100%;
+    width: 100%;
+    
+}
+
+main > div#pano > div#pote >  div#baixo > div#combo-saint > img {
+
+    padding: 0px 40px;
+    height: 80%;
+    width: 80%;
+
+}
+
+
+
 }
