@@ -48,7 +48,7 @@ main > div#pano >div#titulo {
 
 main > div#pano > div#titulo > h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding:  500px 0px 20px 0px;
+    padding:  450px 0px 20px 0px;
     font-size: 50px;
     color: rgb(242, 202, 82);
     text-shadow: 1px 1px 1px black;
